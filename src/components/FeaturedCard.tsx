@@ -75,7 +75,7 @@ const FeaturedCard = ({ Image, buttonTitle, title, description, year, role,link,
                 {/* rightside */}
 
                 <div className='flex items-center'>
-
+ 
                     <div>
 
                         <div>
@@ -123,7 +123,7 @@ const FeaturedCard = ({ Image, buttonTitle, title, description, year, role,link,
                          <motion.div
   className="relative flex cursor-pointer justify-end items-center gap-1 text-[16px] text-[#D3E97A] font-bold font-secondary "
 >
-  <Link href={link}>
+  <Link href={link || "#"} target="_blank">
   <p> LIVE DEMO
   </p>
   </Link >

@@ -67,7 +67,7 @@ sm:text-center
             animate={{ fontSize: isMobile ? '24px' : isLaptop ? '32px' : '28px' }}
             transition={{ duration: 1, ease: 'easeInOut' }}
           >
-             Hello! I'm a passionate Full Stack Developer.
+             Hello! I&apos;m a passionate Full Stack Developer.
           </motion.h1>
           <motion.p
             initial={{ fontSize: '17px' }}
@@ -82,7 +82,7 @@ sm:text-center
 
 I specialize in both front-end and back-end technologies including React, Node.js, and MongoDB,Express Js,Postgress,My Sql,Nest Js With a user-first mindset, I strive to create applications that not only function flawlessly but also look great across all devices.
 
-I’m always exploring new tech and methodologies, and I love collaborating on exciting projects that push the limits of what’s possible on the web.</motion.p>
+I&rsquo;m always exploring new tech and methodologies, and I love collaborating on exciting projects that push the limits of what’s possible on the web.</motion.p>
 
         </div>
 

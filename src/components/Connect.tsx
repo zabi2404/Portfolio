@@ -114,7 +114,7 @@ border-b border-[#484848]
                 animate={{ fontSize: isMobile ? '43px' : (isLaptop ? '76px' : '60px') }}
                 transition={{ duration: 1, ease: 'easeInOut' }}
                 className="font-script"
-              >LET'S CONNECT</motion.h1>
+              >LET&apos;S CONNECT</motion.h1>
 
 
               <motion.p
@@ -127,7 +127,7 @@ border-b border-[#484848]
                <span className="text-white border-b border-[#D3E97A] cursor-pointer">bilaljee684@gmail.com</span>
               </Link>
                
-               {" "} For more info, here’s my <span className="text-white border-b border-[#D3E97A] cursor-pointer">
+               {" "} For more info, here&rsquo;s my <span className="text-white border-b border-[#D3E97A] cursor-pointer">
                 <a download href="Full_Stack_Dev_Applicant.pdf">Resume</a>
                </span>
               </motion.p>
@@ -211,7 +211,7 @@ border-b border-[#484848]
             
             </div>
            
-          </form>
+          </form> 
 
 
         </div>

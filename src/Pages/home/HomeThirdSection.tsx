@@ -72,7 +72,7 @@ import Link from "next/link";
               animate={{ fontSize: isMobile ? '24px' : isLaptop ? '32px' : '28px' }}
               transition={{ duration: 1, ease: 'easeInOut' }}
             >
-              Hello! I'm a passionate Full Stack Developer.
+              Hello! I&apos;m a passionate Full Stack Developer.
             </motion.h1>
             <motion.p
               initial={{ fontSize: '17px' }}
@@ -86,7 +86,7 @@ I enjoys building responsive, scalable, and Industry Standard Web applications
 
 I specialize in both front-end and back-end technologies including React, Node.js, and MongoDB,Express Js,Postgress,My Sql,Nest Js With a user-first mindset, I strive to create applications that not only function flawlessly but also look great across all devices.
 
-I’m always exploring new tech and methodologies, and I love collaborating on exciting projects that push the limits of what’s possible on the web.
+I&rsquo;m always exploring new tech and methodologies, and I love collaborating on exciting projects that push the limits of what’s possible on the web.
              </motion.p>
           <div className="flex
                   sm:justify-center sm:items-center
@@ -95,7 +95,7 @@ I’m always exploring new tech and methodologies, and I love collaborating on e
              <div className="relative after:content-[''] after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-[#D3E97A] after:transition-all after:duration-500 hover:after:w-full">
  <div className="text-[#D3E97A]  cursor-pointer text-[16px]  pt-[53px] flex
     
-            ">
+            "> 
            <Link href="/about">
              MORE ABOUT ME 
            </Link>

@@ -36,7 +36,7 @@ const Footer = () => {
                     <div>
                         <div className="flex flex-col gap-10">
                             <h1 className="leading-15 font-script xsm:text-[40px] lg:text-[60px]">Bilal</h1>
-                            <h1 className='font-secondary xsm:text-[17px] lg:text-[18px]'>Don't hesitate to drop me an email or contact me via my social profiles</h1>
+                            <h1 className='font-secondary xsm:text-[17px] lg:text-[18px]'>Don&apos;t hesitate to drop me an email or contact me via my social profiles</h1>
                         </div>
                         <div>
                             <div className="flex xsm:mt-5 lg:mt-10 gap-10  text-[#D3E97A]

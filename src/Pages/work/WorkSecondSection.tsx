@@ -1,6 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { motion } from "framer-motion";
-import Button from '@/components/buttons/button';
 import Link from 'next/link';
 import { FaArrowLeft } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";

@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { FaArrowRight } from "react-icons/fa6";
 import { usePathname } from 'next/navigation';
 import { FiDownload } from "react-icons/fi";
 

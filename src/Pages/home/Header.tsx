@@ -3,7 +3,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { wrapGrid } from 'animate-css-grid';
 import Link from 'next/link';
-import Image from "next/image";
 import { motion } from "framer-motion";
 import Button from "@/components/buttons/button";
 import AnimatedLineHeading from '@/components/AnimatedLineHeading';

@@ -1,6 +1,6 @@
 "use client"
 import { useEffect, useState } from "react";
-import { motion, AnimatePresence, isMotionValue } from "framer-motion";
+import { motion } from "framer-motion";
 import SubmitButton from "./buttons/SubmitButton";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -24,7 +24,7 @@ message:""
     
   )
 
-  const onChangeInputHandler = (event)=>{
+  const onChangeInputHandler = ( event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>)=>{
     const{name,value} =event.target
    
 // setInputData({...inputData,[event.target.name]:event.target.value})
@@ -40,7 +40,7 @@ console.log(
 )
 
 
-const handleForm = (e)=>{
+const handleForm = (e: React.FormEvent<HTMLFormElement>)=>{
 e.preventDefault();
 
 console.log('subbmitted')

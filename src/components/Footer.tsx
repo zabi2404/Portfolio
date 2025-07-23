@@ -1,16 +1,11 @@
 'use client'
-import { HiClipboardDocument } from "react-icons/hi2";
 import React from 'react'
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import Link from 'next/link';
-import { IoMdMail } from "react-icons/io";
-import { FaWhatsapp } from "react-icons/fa6";
 import { usePathname } from 'next/navigation';
-import { motion } from 'framer-motion'
-import Button from './buttons/button';
 const Footer = () => {
 
     const pathname = usePathname();

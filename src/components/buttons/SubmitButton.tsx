@@ -4,7 +4,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { FiDownload } from "react-icons/fi";
 import { usePathname } from 'next/navigation';
-import Link from 'next/link';
+
 
 type ButtonProps = {
   title: string;

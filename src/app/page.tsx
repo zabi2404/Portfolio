@@ -1,6 +1,5 @@
 "use client";
 
-import Loading from "@/components/loading";
 import dynamic from "next/dynamic";
 
 const Header = dynamic(() => import("@/Pages/home/Header"), { ssr: false });

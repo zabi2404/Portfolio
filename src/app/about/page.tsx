@@ -1,7 +1,6 @@
 'use client';
 import React from 'react';
 import AboutmeHeader from '@/Pages/about/AboutmeHeader';
-import Connect from '@/components/Connect';
 import AboutMeSecondSection from '@/Pages/about/AboutMeSecondSection';
 import AboutMeThirdSection from '@/Pages/about/AboutMeThirdSection';
 
